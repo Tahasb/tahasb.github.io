@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>HTML Cheat Sheet</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="html-cs" href="#home">HTML Cheat Sheet</a></li>
+                <li><a class="css-cs" href="cscheatsheet.html">CSS Cheat Sheet</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>HTML Cheat Sheet</h1>
+
+    <!--Document outline-->
+    <table>
+        <tr>
+            <td>
+                <h3>Document outline</h3>
+                <pre>
+                        <code>
+                            <span>&lt;</span>!DOCTYPE <span class="code-attribute">html</span><span>&gt;</span>;
+                            <span>&lt;</span>html<span>&gt;</span>
+                                <span>&lt;</span>head<span>&gt;</span>
+                                    <span>&lt;</span>meta <span class="code-attribute">charset=</span><span class="code-attribute-values">"UTF-8"</span><span>&gt;</span>
+                                    <span>&lt;</span>title<span>&gt;</span><span id="html2">HTML5 Document</span><span>&lt;</span>/title<span>&gt;</span>
+                                    <span>&lt;</span>link <span class="code-attribute">rel=</span><span class="code-attribute-values">"stylesheet"</span> <span class="code-attribute">href=</span><span class="code-attribute-values">"file.css"</span><span>&gt;</span>
+                                    <span>&lt;</span>script <span class="code-attribute">src=</span><span class="code-attribute-values">"file.js"</span><span>&gt;</span><span>&lt;</span>/script<span>&gt;</span>
+                                <span>&lt;</span>head<span>&gt;</span>
+
+                                <span>&lt;</span>body<span>&gt;</span>
+                                <span>&lt;</span>/body<span>&gt;</span>
+                            <span>&lt;</span>html<span>&gt;</span>
+                        </code>
+                </pre>
+            </td>
+        </tr>
+
+    </table>
+    <br>
+    <!--Tabular data-->
+    <table>
+        <thead>
+            <tr>
+                <th class="table-header" colspan="3">Tabular data</th>
+            </tr>
+            <tr class="table-subheader">
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tags">&lt;col&gt;</th>
+                <td>Columns in a table</td>
+                <td class="attributes">span</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;colgroup&gt;</th>
+                <td>Defines a group of columns in a table</td>
+                <td class="attributes">span</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;table&gt;</th>
+                <td>Table of multi-dimensional data</td>
+                <td class="attributes">summary</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;tr&gt;</th>
+                <td>The table's row</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;td&gt;</th>
+                <td>Table cell</td>
+                <td class="attributes">colspan | rowspan | scope | headers</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;tbody&gt;</th>
+                <td>Contains rows that hold the table's data</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;thead&gt;</th>
+                <td>Contains rows that hold the table's headings</td>
+                <td class="attributes">start | reversed</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;tfoot&gt;</th>
+                <td>Contains rows with summary of data</td>
+                <td>Global attributes</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!--Grouping Content-->
+    <table>
+        <thead>
+            <tr>
+                <th class="table-header" colspan="3">Grouping Content</th>
+            </tr>
+            <tr class="table-subheader">
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tags">&lt;hr&gt;</th>
+                <td>Pragraph-level thematic break</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;br&gt;</th>
+                <td>Line break</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;p&gt;</th>
+                <td>Paragraph content</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;figcaption&gt;</th>
+                <td>Caption or legend for the figure element</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;figure&gt;</th>
+                <td>Contains elements related to a single concept, such as an illustration or code example</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;div&gt;</th>
+                <td>Container with no semantic meaning</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;ol&gt;</th>
+                <td>Ordered list</td>
+                <td class="attributes">start | reversed</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;ul&gt;</th>
+                <td>Unordered list</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;li&gt;</th>
+                <td>List item</td>
+                <td class="attributes">value</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;pre&gt;</th>
+                <td>A block of preformatted text</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;blockquote&gt;</th>
+                <td>Quote from another source</td>
+                <td class="attributes">cite</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!--Metadata and scripting-->
+    <table>
+        <thead>
+            <tr>
+                <th class="table-header" colspan="3">Metada and scripting</th>
+            </tr>
+            <tr class="table-subheader">
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tags">&lt;head&gt;</th>
+                <td>First element of the HTML docuemnt, Collection of metada for the document</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;title&gt;</th>
+                <td>Document title or name</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;meta&gt;</th>
+                <td>Docuemnt metada that can't be expressed with other elements</td>
+                <td class="attributes">charset | content | http-equiv | name</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;base&gt;</th>
+                <td>Specifies URL which non-absolute URLs are relative to</td>
+                <td class="attributes">href | target</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;link&gt;</th>
+                <td>Other resources related to the document like CSS stylesheet</td>
+                <td class="attributes">href | rel | media | hreflang | type | sizes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;style&gt;</th>
+                <td>Embed style information in the documents</td>
+                <td class="attributes">media | type | scoped</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;noscript&gt;</th>
+                <td>Contains elements that are part of the document only if scripting is disabled</td>
+                <td>none</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;script&gt;</th>
+                <td>Inline or linked client sclasse scripts</td>
+                <td class="attributes">async | type | defer | src | charset</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!--Document sections-->
+    <table>
+        <thead>
+            <tr>
+                <th class="table-header" colspan="3">Document sections</th>
+            </tr>
+            <tr class="table-subheader">
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tags">&lt;body&gt;</th>
+                <td>Main content of the document</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;asclasse&gt;</th>
+                <td>Content related to surrounding elements that doesn't belong inline, such as advertising or quotes
+                </td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;address&gt;</th>
+                <td>Contact information for it's nearest article or body element</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;section&gt;</th>
+                <td>Contains of elements grouped by theme, for example a chapter or tab box</td>
+                <td class="attributes">cite</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;header&gt;</th>
+                <td>Navigation or introductory elements for the current section</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;article&gt;</th>
+                <td>Section of the page content, such as a blog or forum post</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;footer&gt;</th>
+                <td>Footer of the current section</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;hgroup&gt;</th>
+                <td>Headings for the current section. The highest ranked heading represents the group in the document
+                    outline</td>
+                <td>Global attributes</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;h1&gt; to &lt;h6&gt;</th>
+                <td>heading for the current section</td>
+                <td>Global attributes</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!--Embedding content-->
+    <table>
+        <thead>
+            <tr>
+                <th class="table-header" colspan="3">Embedding content</th>
+            </tr>
+            <tr class="table-subheader">
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="tags">&lt;img&gt;</th>
+                <td>An image</td>
+                <td class="attributes">alt | src | height | ismap | usemap | wclassth</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;area&gt;</th>
+                <td>Hyperlink with some text and a corresponding area on an image map, or a dead area on an image map
+                </td>
+                <td class="attributes">alt | cords | href | hreflang | media | rel | shape | target | type</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;map&gt;</th>
+                <td>Image map for adding hyperlinks to parts of an image</td>
+                <td class="attributes">name</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;embed&gt;</th>
+                <td>Integration point for an external (typically non-HTML) application or interactive content</td>
+                <td class="attributes">height | src | type |wclassth</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;object&gt;</th>
+                <td>External resource such as an image, iframe or plugin</td>
+                <td class="attributes">data | height | type | usemap | wclassth | form</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;param&gt;</th>
+                <td>Parameters for the parent object</td>
+                <td class="attributes">name | value</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;source&gt;</th>
+                <td>Alternative sources for parent vclasseo or audio</td>
+                <td class="attributes">media | src | type</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;iframe&gt;</th>
+                <td>Nested browser frame</td>
+                <td class="attributes">src | name | sandbox | seamless | wclassth | height | srcdoc</td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;vclasseo&gt;</th>
+                <td>Used for playing vclasseos or movies</td>
+                <td class="attributes">audio | autoplay | controls | height | loop | poster | preload | src | wclassth
+                </td>
+            </tr>
+            <tr>
+                <th class="tags">&lt;audio&gt;</th>
+                <td>Sound or audio stream</td>
+                <td class="attributes">autobuffer | preload | loop | controls | src</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+<p>All right reserved</p>
+<p>Contact me at sbaititaha@gmail.com</p>
+    </footer>
+</body>
+
+</html>
